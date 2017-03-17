@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  	<parameter name="article" value="Работа"/>
+  	<parameter name="searchstr" value="Специалист по тестированию"/>
+    <classes>
+      <class name="com.dobriy.test.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
